@@ -16,7 +16,6 @@ const images = [
 const img = document.querySelector('.gallery');
 console.log(img.innerHTML);
 
-// const newTechnologies = ["React", "TypeScript", "Node.js"];
 const markup = images
   .map((img) => `<li class="img-item"><img src=${img.url} alt=${img.alt}></img></li>`)
   .join("");
